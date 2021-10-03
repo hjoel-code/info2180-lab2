@@ -1,7 +1,11 @@
 header img {
-    max-width: 120px;
-    border-radius: 60px;
+    max-width: 160px;
+    border-radius: 80px;
 
+}
+
+hr {
+    margin: 20px 0;
 }
 
 article, p {
