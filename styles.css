@@ -1,0 +1,113 @@
+header img {
+    max-width: 120px;
+    border-radius: 60px;
+
+}
+
+article, p {
+    font-size: 18px;
+    color: #2d3748;
+    font-family: apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+header {
+    background: #63b3ed;
+    color: #fff;
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+header p {
+    color: #fff;
+}
+
+
+h2.blog-title {
+    font-size: 36px;
+    color: #48BB78;
+}
+
+h3.about {
+    color: #000000;
+}
+
+h3 {
+    color: #48BB78;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+    color: #4299E1;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'main main main main aside aside'
+        'footer footer footer footer footer footer';
+
+    grid-gap: 50px;
+    margin: 0;
+}
+
+main {
+    grid-area: main;
+    padding-left: 20%;
+}
+
+aside {
+    grid-area: aside;
+    padding-right: 20%;
+}
+
+footer {
+    grid-area: footer;
+    background: #2C5282;
+    padding-left: 40px;
+}
+
+footer p {
+    color: #fff;
+}
+
+.blog-card {
+    padding: 50px;
+    background: rgb(243, 243, 243);
+    margin-bottom: 60px;
+}
+
+.article-img {
+    float: left;
+    margin: 15px;
+    max-width: 160px;
+}
+
+p.blog-date {
+    float: right;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #718096;
+}
+
+.about-card {
+    padding: 20px;
+    background: #E2E8F0;
+    margin-bottom: 60px;
+}
+
+
+
+
